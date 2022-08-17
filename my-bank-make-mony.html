@@ -1,15 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My-bank-make-mony</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-    <header>
-        <h1>My bank make mony</h1>
+    <header class="mt-10">
+        <h1 class="text-5xl text-center font-simebold">My bank make <span class="text-purple-600 font-bold">functional
+                sistym</span> !!!</h1>
     </header>
-    
+    <main>
+        <!-- update section  -->
+        <section class="w-8/12 mx-auto">
+            <div class="grid grid-cols-3 gap-4 mt-8">
+                <div class="bg-red-300 text-white p-8 rounded-lg">
+                    <h1 class="text-4xl">Deposit</h1>
+                    <h1 class="text-4xl font-bold">$<span>00</span></h1>
+                </div>
+                <div class="bg-yellow-300 text-white p-8 rounded-lg">
+                    <h1 class="text-4xl">Withdrow</h1>
+                    <h1 class="text-4xl font-bold">$<span>00</span></h1>
+                </div>
+                <div class="bg-green-300 text-white p-8 rounded-lg">
+                    <h1 class="text-4xl">Balance</h1>
+                    <h1 class="text-4xl font-bold">$<span>00</span></h1>
+                </div>
+                
+            </div>
+        </section>
+        <!-- calculat and input section  -->
+        <section>
+            <div class="grid grid-cols-2 gap-4 w-8/12 mx-auto mt-8">
+                <div class="bg-pink-300 p-8 rounded-lg">
+                    <h class="text-white text-2xl">Your Deposit</h>
+                    <input type="number" class="block my-2 w-3/4 py-2 px-3 rounded-lg" name="" id="">
+                    <button class="font-semibold bg-red-300 px-4 py-2 rounded-lg hover:bg-red-400 text-white">Deposit</button>
+                </div>
+                <div class="bg-violet-300 p-8 rounded-lg">
+                    <h class="text-white text-2xl">Your Withdrow</h>
+                    <input type="number" class="block my-2 w-3/4 py-2 px-3 rounded-lg" name="" id="">
+                    <button class="font-semibold bg-red-300 px-4 py-2 rounded-lg hover:bg-red-400 text-white">Deposit</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
 </body>
+
 </html>
